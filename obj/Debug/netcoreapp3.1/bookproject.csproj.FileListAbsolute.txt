@@ -1,0 +1,13 @@
+C:\Users\gmac2\source\repos\MIS 321\bookproject\bin\Debug\netcoreapp3.1\bookproject.exe
+C:\Users\gmac2\source\repos\MIS 321\bookproject\bin\Debug\netcoreapp3.1\bookproject.deps.json
+C:\Users\gmac2\source\repos\MIS 321\bookproject\bin\Debug\netcoreapp3.1\bookproject.runtimeconfig.json
+C:\Users\gmac2\source\repos\MIS 321\bookproject\bin\Debug\netcoreapp3.1\bookproject.runtimeconfig.dev.json
+C:\Users\gmac2\source\repos\MIS 321\bookproject\bin\Debug\netcoreapp3.1\bookproject.dll
+C:\Users\gmac2\source\repos\MIS 321\bookproject\bin\Debug\netcoreapp3.1\bookproject.pdb
+C:\Users\gmac2\source\repos\MIS 321\bookproject\obj\Debug\netcoreapp3.1\bookproject.csprojAssemblyReference.cache
+C:\Users\gmac2\source\repos\MIS 321\bookproject\obj\Debug\netcoreapp3.1\bookproject.AssemblyInfoInputs.cache
+C:\Users\gmac2\source\repos\MIS 321\bookproject\obj\Debug\netcoreapp3.1\bookproject.AssemblyInfo.cs
+C:\Users\gmac2\source\repos\MIS 321\bookproject\obj\Debug\netcoreapp3.1\bookproject.csproj.CoreCompileInputs.cache
+C:\Users\gmac2\source\repos\MIS 321\bookproject\obj\Debug\netcoreapp3.1\bookproject.dll
+C:\Users\gmac2\source\repos\MIS 321\bookproject\obj\Debug\netcoreapp3.1\bookproject.pdb
+C:\Users\gmac2\source\repos\MIS 321\bookproject\obj\Debug\netcoreapp3.1\bookproject.genruntimeconfig.cache
