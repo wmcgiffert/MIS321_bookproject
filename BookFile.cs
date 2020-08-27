@@ -10,16 +10,18 @@ namespace bookproject
 
             StreamReader inFile = new StreamReader("input.txt");
             
-            string line = inFile.ReadLine();
-            while(line != null)
+            string line = inFile.ReadLine(); //Primming Read
+
+            while(line !=null)
             {
                 string[] temp = line.Split("#");
-                fantasyBooks[count] = new Book(){Title = temp[0], Author =temp[1], PageNums =int.Parse(temp[2])};
+                int pages = int.Parse(temp[2]);
+                fantasyBooks[count] = new Book(){Title = temp[0], Author = temp[1], Pages = pages};
+                count++;
+                line = inFile.ReadLine(); //update read
             }
 
-
-
-
+            inFile.Close();
             return fantasyBooks;
         }
         
