@@ -1,13 +1,14 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System;
 
 namespace bookproject
 {
     class Program
     {
         static void Main(string[] args)
-        {
- 
-            Book[] fantasyBooks = BookFile.GetBooks();
+        { 
+
+            List<Book> fantasyBooks = BookFile.GetBooks();
 
             for(int i = 0; i<3; i++)
             {

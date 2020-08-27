@@ -1,23 +1,21 @@
 using System.IO;
+using System.Collections.Generic;
+
 namespace bookproject
 {
     public class BookFile
     {
-        public static Book[] GetBooks()
+        public static List<Book> GetBooks()
         {
-            Book[] fantasyBooks = new Book[50];
-            int count = 0;
-
+            List<Book> fantasyBooks = new List<Book>();
             StreamReader inFile = new StreamReader("input.txt");
             
             string line = inFile.ReadLine(); //Primming Read
-
             while(line !=null)
             {
                 string[] temp = line.Split("#");
                 int pages = int.Parse(temp[2]);
-                fantasyBooks[count] = new Book(){Title = temp[0], Author = temp[1], Pages = pages};
-                count++;
+                fantasyBooks.Add(new Book(){Title = temp[0], Author = temp[1], Pages = pages});
                 line = inFile.ReadLine(); //update read
             }
 
