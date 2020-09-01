@@ -12,7 +12,7 @@ namespace bookproject
 
             for(int i = 0; i<3; i++)
             {
-                Console.WriteLine(value: $"{fantasyBooks[i].Title} has {fantasyBooks[i].Pages} pages");    
+                Console.WriteLine($"{fantasyBooks[i].Title} has {fantasyBooks[i].Pages} pages");    
             }
             
         }
