@@ -10,9 +10,9 @@ namespace bookproject
 
             List<Book> fantasyBooks = BookFile.GetBooks();
 
-            for(int i = 0; i<3; i++)
+            foreach(Book aBook in fantasyBooks)
             {
-                Console.WriteLine($"{fantasyBooks[i].Title} has {fantasyBooks[i].Pages} pages");    
+                Console.WriteLine($"{aBook.Title} has {aBook.Pages} pages");    
             }
             
         }
